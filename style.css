@@ -8,6 +8,7 @@
 
 body {
   /* overflow-x: hidden; */
+  font-family: 'Poppins', sans-serif;
   background-color: rgba(0, 0, 0, 0.829);
 }
 
@@ -481,8 +482,14 @@ body {
 }
 
 .footer {
-  background-color: rgb(0, 0, 0);
-  background-image: url('https://i.postimg.cc/Bbjp0pjW/wallpaperbetter-4.jpg');
+  /* background-color: rgba(0, 0, 0, 0.472); */
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.493),
+    rgba(77, 77, 77, 0.281)
+  );
+  /* background-image: linear-gradient(to bottom right, red, yellow); */
+  /* background-image: url('https://i.postimg.cc/KcTSDfcN/wallpaperbetter-6.jpg'); */
   background-size: cover;
   background-position: top;
   background-position-y: -25px;
@@ -500,7 +507,7 @@ body {
 }
 
 .footer h2 {
-  color: rgb(200, 200, 200);
+  color: rgb(233, 233, 233);
   font-size: 1rem;
   /* padding: 10px; */
   padding-bottom: 10px;
@@ -509,7 +516,7 @@ body {
 .footer a {
   text-decoration: none;
   font-size: 1rem;
-  color: rgb(90, 90, 90);
+  color: rgb(199, 199, 199);
   /* padding: 20px; */
   /* background-color: aqua; */
   /* gap: var(--gap, 10rem); */
